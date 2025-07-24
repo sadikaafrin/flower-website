@@ -1,0 +1,31 @@
+*{
+      font-family: "Inter", sans-serif;
+}
+/* banner style */
+.primary-font{
+     font-family: "Noto Serif", serif;
+     font-weight: bold;
+     font-size: 4rem;
+}
+.primary-text{
+    font-size: 1.2rem;
+    color: rgba(0, 0, 0, 0.5);
+}
+.banner-left{
+    max-width: 570px;
+
+}
+.banner-right img{
+    max-width: 570px;
+   height: 100%;
+}
+
+@media screen and (max-width: 640px) {
+    .banner{
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+}
+/* nav{
+    border: 1px solid tan;
+} */
