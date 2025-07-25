@@ -42,8 +42,7 @@
   position: relative;
 }
 
-/* Layout */
-
+/* Deal style */
 .deal-wrapper {
   display: flex;
   flex-direction: row;
